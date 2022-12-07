@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+.logo{
+    height:100px;
+    width:110px;
+}
+.logo_text{
+    color: goldenrod;
+    font-family: 'Diplomata SC', cursive;
+}
+#nav_item1,#nav_item2,#nav_item3{
+font-family: 'Zen Dots', cursive;
+font-size: 25px;
+color: dodgerblue;
+
+}
