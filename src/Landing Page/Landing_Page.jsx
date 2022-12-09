@@ -8,6 +8,7 @@ class LandingPage extends React.Component {
 
     
 render(){
+
     
     return(
  
@@ -49,7 +50,10 @@ render(){
 <img src={hero_section2} alt='hero_section' id='hero_section2'></img>
 </div>
 </div>
+
+
 <div>
+
 <footer>
         <div className='container'>
           <div className='row footer' >

@@ -1,0 +1,25 @@
+.form_div{
+    margin: 0px;
+    color: white  ;
+    background-color: #505050		;
+  }
+  
+  .form{
+  padding: 20px;
+  
+  }
+  hr{
+  border: 1px solid #696969;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+  }
+  .form_label{
+  font-size: 20px;
+  }
+  form {
+    display: block;
+    margin-top: 0em;
+  
+  }
