@@ -47,7 +47,7 @@ render(){
         <a className="nav-link" id='nav_item5' >|</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link active " id='nav_item3' href="#">Login/Signup</a>
+        <a className="nav-link active " id='nav_item3' href="#footer">Login/Signup</a>
       </li>
       
     </ul>
@@ -198,7 +198,7 @@ render(){
                 </form>
               </div>
               <div className="mt-5">
-                <p className="main-hero-para text-center w-100">
+                <p className="main-hero-para text-center w-100" id='footer'>
                   Copyright @ cryptocrow.com. All rights reserved.
                 </p>
               </div>
