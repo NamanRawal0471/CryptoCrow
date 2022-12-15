@@ -39,19 +39,20 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <div class='form_div'>
-      <center><hr></hr></center>
       <form class='form'>
         <div class="form-group ">
           <label  class='form_label ' for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+          <input type="email" id='email-input' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
           
         </div>
         <div class="form-group">
-          <label className='form_label ' for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+          <label class='form_label ' for="exampleInputPassword1">Password</label>
+          <input type="password" id='pwd-input' class="form-control" id="exampleInputPassword1" placeholder="Password"/>
         </div>
         
-        <button type="submit-btn" class="btn btn-primary">Sign-Up</button>
+        <input id="submit-btn" type="submit" value="Sign Up" class="btn btn-success" >
+        <input id="submit-btn1" type="submit" value="Login" class="btn btn-success" >
+        <div id="my-container"></div>
       </form>
       </div>
       <script src="./signup.js"></script>

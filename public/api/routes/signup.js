@@ -33,7 +33,8 @@ router.post('/', (req, res) => {
             
                 // Functionality which checks the recods of the user & check if the input email does not exist in the records
                 newUser.save()
-                    .then(result => res.status(201).json( {message: 'User Signup Successful', userDetails: result} ))
+                    .then(result => res.status(201).json( {message: 'User Signup Successful', userDetails: result}))
+                    
                     .catch(err => res.status(500).json( {message: 'Server Encountered an Error', error: err} ))
             }
         })

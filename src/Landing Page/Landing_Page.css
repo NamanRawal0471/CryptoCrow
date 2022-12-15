@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .logo{
     height:100px;
     width:110px;
@@ -14,6 +20,9 @@ font-family: 'Zen Dots', cursive;
 font-size: 25px;
 color: dodgerblue;
 
+}
+.navi{
+  background: #16213E;
 }
 
 #nav_item4,#nav_item5{
@@ -31,7 +40,7 @@ color: dodgerblue;
   }
 
   .hero_section{
-    background-color: #1e2433;
+    background: #0F3460;  
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,7 +49,11 @@ color: dodgerblue;
   .hero_section_text{
     color: white;
     font-family: 'Fugaz One', cursive;
+    margin-left: 20px;
   
+  }
+  .hero_section_underline_text{
+    margin-left: 20px;
   }
   #hero_section1{
     height:500px;
@@ -151,7 +164,7 @@ color: dodgerblue;
  
   footer {
     padding: 1rem 0;
-    background-color: black;
+    background-color: #E94560;
     color: #fff;
   }
   
@@ -244,11 +257,17 @@ color: dodgerblue;
 
 }
 hr{
-  border: 1px solid #696969;
+  border: 2px solid cyan;
   border-radius: 5px;
   margin: 0px;
   padding: 0px;
-  width: 50%;
+  width: 80%;
+  background-color: goldenrod;
+}
+.heading_Footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: cyan;
 }
 .form_label{
   font-size: 20px;
@@ -289,3 +308,93 @@ hr{
     cursor: pointer;
     transition: all .1s;
   }
+
+  .Features_Section{
+    background-color: #533483	;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .Feature_img{
+    height: 350px;
+    width: 600px;
+  }
+  
+.Features_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+
+}
+
+.Feature{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.Feature_Heading{
+  font-family: 'Zen Dots', cursive;
+  color: white;
+}
+.Feature_Underline{
+  color: cyan;
+}
+.Features_Section_Heading{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Features_Section_Heading_text{
+color: gold;
+
+font-family: 'Diplomata SC', cursive;
+
+}
+.Features_Section_Heading_text_span1{
+  background: -webkit-linear-gradient(goldenrod, yellow,goldenrod);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Features_Section_Heading_text_span2{
+  background: -webkit-linear-gradient(orange, white,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1296px){
+.Features_row{
+  display: flex;
+  flex-direction: column;
+}
+}
+@media screen and (max-width: 719px){
+  .Feature_img{
+    height: 250px;
+    width: 400px;
+  }
+  .Feature_Heading{
+    font-size: 20px;
+  }
+  .Feature_Underline{
+    font-size: 10px;
+  }
+  }
+  @media screen and (max-width: 469px){
+    .Feature_img{
+      height: 150px;
+      width: 300px;
+    }
+    .Feature_Heading{
+      font-size: 15px;
+    }
+    .Feature_Underline{
+      font-size: 7.5px;
+    }
+    .logo{
+      height:40px;
+      width:60px;
+  }
+    }
