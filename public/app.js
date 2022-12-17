@@ -40,6 +40,7 @@ mongoose.connect('mongodb+srv://naman_rawal__:mongoDB098@cluster0.ljwawpx.mongod
 // MANAGING MY OWN ROUTES
 // 1. /users/login
 // 2. /users/signup
+const homeRoute= require('./api/routes/home')
 const loginHandler = require('./api/routes/login')
 const signupHandler = require('./api/routes/signup')
 
@@ -48,7 +49,7 @@ const signupHandler = require('./api/routes/signup')
 // app.use('/users', (req, res) => {
 //     res.status(200).json( {username: 'Demo UserName', password: 'Demo PWD'} )
 // })
-
+app.use('/',homeRoute)
 app.use('/users/login', loginHandler)
 app.use('/users/signup', signupHandler)
 
